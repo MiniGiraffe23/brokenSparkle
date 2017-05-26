@@ -7,10 +7,14 @@ Find the games you want to play...
 
 ### To do:
 
-### Stretches and additional features
+#### Stretches and additional features
 
 ## APIs to use
 
 ### Core APIs
+* Internet Game Database
+* Twitch
 
 ### Additional APIs
+* Redbox
+* Google Maps
