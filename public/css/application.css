@@ -1,12 +1,12 @@
 body {
-  background: #282828;/* match border color */
+  background: #191818;/* match border color */
   text-align: center;
 }
 
-/*a {
-  color: #dc006c;
+.link {
+  color: #f4efef;
 }
-small {
+/*small {
   color: #333;
 }*/
 
@@ -44,14 +44,14 @@ small {
 .logo .word1:before {
   right: -4px;/* would be left, but we flipped the word */
   top: -9px;
-  border-top-color: #282828;/* match background color */
-  border-right-color: #282828;/* would be left, but we flipped the word */
+  border-top-color: #191818;/* match background color */
+  border-right-color: #191818;/* would be left, but we flipped the word */
 }
 .logo .word1:after {
   left: 17px;/* would be right, but we flipped the word */
   bottom: -15px;
-  border-bottom-color: #282828;
-  border-left-color: #282828;/* would be right, but we flipped the word */
+  border-bottom-color: #191818;
+  border-left-color: #191818;/* would be right, but we flipped the word */
 }
 
 /* stuff for 2nd word */
@@ -66,33 +66,31 @@ small {
 .logo .word2:before {
   left: -4px;
   top: -6px;
-  border-top-color: #282828;
-  border-left-color: #282828;
+  border-top-color: #191818;
+  border-left-color: #191818;
 }
 .logo .word2:after {
   right: -4px;
   bottom: 4px;
-  border-bottom-color: #282828;
-  border-right-color: #282828;
+  border-bottom-color: #191818;
+  border-right-color: #191818;
+}
+
+p {
+  font: 20px 'Arial Narrow', sans-serif;
+  color: #d6d1d1;
+}
+
+.form-container {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 10% auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 }
 
 
-/*knockout {
-  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
-  color: red;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-weight: bold;
-  font-size: 100px;
-  font-family: arial, helvetica;
-  width: 600px;
-  margin: 50px auto;
-  text-align: center;
-}
-
-body{
-  background: #444;
-}*/
 
 
 
