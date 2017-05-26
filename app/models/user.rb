@@ -1,3 +1,4 @@
 class User < ActiveRecord::Base
-  # Remember to create a migration!
+  has_many  :favorites
+  has_many  :favorited_games, through: :favorites, sourse: :games
 end
