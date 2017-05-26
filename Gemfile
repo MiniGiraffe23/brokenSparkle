@@ -17,13 +17,14 @@ gem 'shotgun', '~>0.9.1'
 gem 'pry'
 gem 'json'
 gem 'twitch', '~> 0.1.0'
-
+gem 'igdb_api'
 
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
   gem 'rspec', '~>3.0'
   gem 'capybara'
+
 end
 
 group :test, :development do
