@@ -20,6 +20,7 @@ gem 'twitch', '~> 0.1.0'
 gem 'igdb_api'
 gem 'unirest'
 
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
