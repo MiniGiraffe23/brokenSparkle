@@ -6,6 +6,6 @@ class IgdbApi
    "X-Mashape-Key" => ENV[MASHAPE_KEY],
    "Accept" => "application/json"
   }
+  p results
  end
-
 end
